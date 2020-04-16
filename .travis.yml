@@ -15,9 +15,9 @@ skip_cleanup: true
 github_token: $github_token
 local_dir: build
 on:
-	branch: master
+  branch: master
 
 notifications:
 email:
-	on_success: change
-	on_failure: change
+  on_success: change
+  on_failure: change
