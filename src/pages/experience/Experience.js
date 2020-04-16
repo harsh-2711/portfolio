@@ -97,9 +97,9 @@ const experience = {
 				},
 				{
 					title: "Developer Students Club Member",
-					company: "DSC IIITDM Kurnool",
+					company: "DSC DAIICT",
 					company_url:
-						"https://www.linkedin.com/company/developer-students-club-iiitdm-kurnool",
+						"https://ossdaiict.github.io/dsc-website",
 					logo_path: "dsc_logo.png",
 					duration: "Sep 2018 - PRESENT",
 					location: "Gandhinagar, Gujarat",
