@@ -13,8 +13,8 @@ const blogSection = {
 
 	title: "Blogs",
 	subtitle:
-		"For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-	link: "https://ashutoshhathidara.wordpress.com",
+		"Blogging forces me to teach myself what I don’t know and to articulate what I do know. So, I write weeekly tech blogs as I believe in giving what I have received from the community",
+	link: "https://medium.com/@harsh.2711.patel",
 	avatar_image_path: "blogs_image.svg"
 };
 

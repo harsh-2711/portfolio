@@ -25,7 +25,8 @@ const socialMediaLinks = {
     gitlab: "https://gitlab.com/harsh-2711",
     facebook: "https://www.facebook.com/profile.php?id=100003775165712",
     twitter: "https://twitter.com/harsh_2711",
-    instagram: "https://www.instagram.com/harsh.dmg/"
+    instagram: "https://www.instagram.com/harsh.dmg/",
+    sourcerer: "https://sourcerer.io/harsh-2711"
 };
 
 const skills = {
@@ -227,6 +228,13 @@ const skills = {
                 "⚡ Creating the flow of application functionalities to optimize user experience"
             ],
             softwareSkills: [{
+                    skillName: "Invision",
+                    fontAwesomeClassname: "simple-icons:invision",
+                    style: {
+                        color: "#ea3463"
+                    }
+                },
+                {
                     skillName: "Figma",
                     fontAwesomeClassname: "simple-icons:figma",
                     style: {
