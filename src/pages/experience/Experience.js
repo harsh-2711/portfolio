@@ -135,6 +135,99 @@ const experience = {
 					color: "#da3832"
 				}
 			]
+		},
+		{
+			title: "Achievements",
+			experiences: [
+				{
+					title: "Google Summer of Code 2018 Student",
+					company: "FOSSASIA",
+					company_url: "http://fossasia.org/",
+					logo_path: "fossasia.png",
+					duration: "May 2018 - Aug 2018",
+					location: "",
+					description:
+						"Worked as GSoC Student under FOSSASIA's PSLab Project.",
+					color: "#c3291b"
+				},
+				{
+					title: "Google Code-In 2018 Mentor",
+					company: "FOSSASIA",
+					company_url: "http://fossasia.org/",
+					logo_path: "fossasia.png",
+					duration: "Oct 2019 - Dec 2018",
+					location: "",
+					description:
+						"Mentored 5 students in Google Code-in programme under FOSSASIA organisation.",
+					color: "#c3291b"
+				},
+				{
+					title: "Winner",
+					company: "Swadheenta Hackathon",
+					company_url: "https://www.linkedin.com/company/dcei/?originalSubdomain=za",
+					logo_path: "swadheenta.png",
+					duration: "Feb 2020",
+					location: "",
+					description:
+						"Made offline data storage and sharing platform same as Google Drive but which works without internet service.",
+					color: "#b4dbb5"
+				},
+				{
+					title: "Runners Up",
+					company: "Hackout Hackathon",
+					company_url: "https://hackout.devfolio.co/",
+					logo_path: "hackout.png",
+					duration: "Oct 2019",
+					location: "",
+					description:
+						"Made broadcasting service which can transfer compressed data using a series of QR codes for offline data transmission across a predefined channel.",
+					color: "#000000"
+				},
+				{
+					title: "Second Runners Up",
+					company: "IEEE Humanitarian Contest",
+					company_url: "https://ias.ieee.org/images/files/CMD/2019/CMD_Contest_Results_2019/Humanitarian_Contest_Results_2019.pdf",
+					logo_path: "ieee_humanitarian.png",
+					duration: "Mar 2019 - June 2019",
+					location: "",
+					description:
+						"Designed and developed smart camera system which can bee directly fitted on spectacles of any blind person having functionalities like Sign recognition, Object recognition, Depth recognition, Smart Navigation and a personal assistant. ",
+					color: "#7cb959"
+				},
+				{
+					title: "National Semi-Finalist",
+					company: "FlipKart Grid Challenge",
+					company_url: "https://dare2compete.com/o/Flipkart-GRiD-Teach-The-Machines-2019-74928",
+					logo_path: "flipkart_grid.jpeg",
+					duration: "Jan 2018 - March 2018",
+					location: "",
+					description:
+						"Stood in top 3 teams  at college level in the first online quiz round. Survived till semi-finals by developing and improving upon an Object Localisation model. ",
+					color: "#000000"
+				},
+				{
+					title: "Google Foobar Challenge Recipient",
+					company: "Google",
+					company_url: "https://www.aclweb.org/anthology/S19-2030/",
+					logo_path: "google.png",
+					duration: "June 2019 - July 2019",
+					location: "",
+					description:
+						"Recieved invitation to complete Google's secret hiring Foobar challenge.",
+					color: "#de70a2"
+				},
+				{
+					title: "Second Runner Up",
+					company: "Yes Bank Datathon Challenge",
+					company_url: "https://skillenza.com/challenge/yes-bank-datathon",
+					logo_path: "yes_bank_datathon.jpeg",
+					duration: "Sep 2018 - Dec 2018",
+					location: "",
+					description:
+						"Designed a model to effictively parse useful data from provided customer's dataset and geographically map it to provide an insight about how and from where to get next possible customers and how to maintain current customers.",
+					color: "#21558c"
+				}
+			]
 		}
 	]
 };
