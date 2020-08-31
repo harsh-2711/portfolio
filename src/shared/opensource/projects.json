@@ -24,16 +24,16 @@
             "description": "A complete cryptocurrency portfolio manager with future recommendations",
             "isFork": false,
             "languages": [{
-                    "name": "Javscript",
-                    "iconifyClass": "logos-javascript"
-                },
-                {
                     "name": "React",
                     "iconifyClass": "logos-react"
                 },
                 {
                     "name": "Flask",
                     "iconifyClass": "logos-flask"
+                },
+                {
+                    "name": "AWS",
+                    "iconifyClass": "logos-aws"
                 }
             ]
         },
@@ -62,8 +62,8 @@
             "description": "Compression Engine for offline data transmission",
             "isFork": false,
             "languages": [{
-                    "name": "Flask",
-                    "iconifyClass": "logos-flask"
+                    "name": "NodeJS",
+                    "iconifyClass": "logos-nodejs"
                 },
                 {
                     "name": "Tensorflow",
@@ -98,24 +98,15 @@
         },
         {
             "id": "MDEwOlJlcG9zaXRvcnkxNjA0NjgyNzE=",
-            "name": "Chat-Emotion-Detector",
-            "createdAt": "2019-01-15T05:55:53Z",
-            "url": "https://github.com/harsh-2711/Chat-Emotion-Detector",
-            "description": "3-way chats emotion detector",
+            "name": "FIDO2-Webauth",
+            "createdAt": "2020-03-27T05:55:53Z",
+            "url": "https://github.com/harsh-2711/FIDO2_Webauth",
+            "description": "FIDO Alliance Web Authentication Interface for 2FA",
             "isFork": false,
             "languages": [{
-                    "name": "Jupyter Notebook",
-                    "iconifyClass": "logos-jupyter"
-                },
-                {
-                    "name": "Python",
-                    "iconifyClass": "logos-python"
-                },
-                {
-                    "name": "Tensoflow",
-                    "iconifyClass": "logos-tensorflow"
-                }
-            ]
+                "name": "Javascript",
+                "iconifyClass": "logos-javascript"
+            }]
         }
     ]
 }

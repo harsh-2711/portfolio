@@ -30,7 +30,7 @@ export default class Main extends Component {
 						<Route path="/home" component={Home} />
 						<Route path="/experience" exact component={Experience} />
 						<Route path="/education" component={Education} />
-						{/* <Route path="/opensource" component={Opensource} /> */}
+						<Route path="/opensource" component={Opensource} />
 						<Route path="/contact" component={Contact} />
 						<Route path="/splash" component={Splash} />
 						<Route path="/projects" component={Projects} />

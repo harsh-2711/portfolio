@@ -54,7 +54,7 @@ function Header() {
 								Projects
 							</NavLink>
 						</li>
-						{/* <li>
+						<li>
 							<NavLink
 								to="/opensource"
 								tag={Link}
@@ -62,7 +62,7 @@ function Header() {
 							>
 								Open Source
 							</NavLink>
-						</li> */}
+						</li>
 						<li>
 							<NavLink
 								to="/contact"

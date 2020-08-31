@@ -10,19 +10,30 @@ const experience = {
 	title: "Experience",
 	subtitle: "Work, Internship and Volunteership",
 	description:
-		"I have worked with many evolving startups as Platform Engineer, Software Developer, ML and DL intern. I have also worked with some well established companies mostly as Software Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+		"I have worked with many evolving startups as Software Developer, Backend Developer and Deep Learning intern. I have also worked with some well established companies mostly as Software Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
 	header_image_path: "experience.svg",
 	sections: [
 		{
 			title: "Work",
 			experiences: [
 				{
+					title: "Software Development Engineer",
+					company: "Lyearn",
+					company_url: "https://lyearn.com/",
+					logo_path: "lyearn.jpeg",
+					duration: "Jul 2020 - Present",
+					location: "Work from home",
+					description:
+						"Taught myself concepts of realtime video communication over internet including WebRTC APIs, XMPP servers, STUN/TURN candidates, etc. Developed the functionality of selective stream cutoff for supporting low bandwidth users. Working on enabling meeting recording functionality on VideoBridge by taking reference from Jibri",
+					color: "#000000"
+				},
+				{
 					title: "Platform Engineer",
 					company: "Appbase.io",
 					company_url: "https://appbase.io/",
 					logo_path: "appbase.jpeg",
 					duration: "Aug 2019 - Jan 2020",
-					location: "Gandhinagar, Gujarat",
+					location: "Work from home",
 					description:
 						"Designed the CLI of the ABC library which is a command-line tool to interact with Appbase.io along with features of importing data from any popular data source (Postgres, SQL, Mongo) to ElasticSearch using Golang along with developing the Arc library which is a modular API gateway between Appbase.io dashboard and ElasticSearch cluster by enhancing the current architectural tests and shifting it to support ElasticSearch v7.x in Golang.",
 					color: "#68c6f2"
@@ -33,12 +44,23 @@ const experience = {
 			title: "Internships",
 			experiences: [
 				{
+					title: "Software Development Engineer",
+					company: "Headout",
+					company_url: "https://headout.com/",
+					logo_path: "headout.png",
+					duration: "May 2020 - Jul 2020",
+					location: "Work from home",
+					description:
+						"Developed a fully automated system of booking a tour through vendor APIs to decrease the order fullfillment time by almost 90%. Also, developed a sorting algorithm for ranking reviews based on sentiments, post time, etc. which increased conversion ratio by almost 5%",
+					color: "#ff0000"
+				},
+				{
 					title: "Software Developer",
 					company: "Appbase.io",
 					company_url: "https://appbase.io/",
 					logo_path: "appbase.jpeg",
 					duration: "Oct 2018 - July 2019",
-					location: "Gandhinagar, Gujarat",
+					location: "Work from home",
 					description:
 						"Designed and developed a Swift client for iOS and macOS devices to directly communicate with ElasticSearch servers using CRUD queries along with modified search and bulk transfer and streaming methods. Also developed an Android Search Widget library with both offline and online database connectivity which reduces development time by almost 90%",
 					color: "#68c6f2"
@@ -74,7 +96,7 @@ const experience = {
 						"http://fossasia.org/",
 					logo_path: "fossasia.png",
 					duration: "Apr 2018 - Jan 2019",
-					location: "Singapore",
+					location: "Work from home",
 					description:
 						"In the Android app, developed interface for 3 different sensors available in PSLab Hardware device along with developing a fully functional Logic Analyzer using background threads and graphing tools. In the desktop app, fixed issues related to the functions calling by making seperate classes for each sensor. Also, fixed the PyQt dependency issue of the library by adding necessary command line package installation commands solving around 60% of software installation issues",
 					color: "#c3291b"
@@ -106,18 +128,18 @@ const experience = {
 					description:
 						"We have well established developer club in college which is directly associated with Google Developers. We have developed many interdisciplinary projects under the membership of this club. We have organised workshops and activities on Android Application Development, Flutter and React JS.",
 					color: "#0C9D58"
-				},
-				{
-					title: "Mozilla Campus Captain",
-					company: "Mozilla",
-					company_url: "https://www.mozilla.org/",
-					logo_path: "mozilla_logo.png",
-					duration: "Oct 2018 - PRESENT",
-					location: "Gandhinagar, Gujarat",
-					description:
-						"My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
-					color: "#000000"
 				}
+				// {
+				// 	title: "Mozilla Campus Captain",
+				// 	company: "Mozilla",
+				// 	company_url: "https://www.mozilla.org/",
+				// 	logo_path: "mozilla_logo.png",
+				// 	duration: "Oct 2018 - PRESENT",
+				// 	location: "Gandhinagar, Gujarat",
+				// 	description:
+				// 		"My responsibility for this program was to create opensource environment in college and in the city. We have organised multiple hackathons on the problems collected by ordinary people from Kurnool city. We have build opensource community of our own college. The community is available at dsc_iiitdmk on github.",
+				// 	color: "#000000"
+				// }
 			]
 		},
 		{
@@ -213,7 +235,7 @@ const experience = {
 					duration: "June 2019 - July 2019",
 					location: "",
 					description:
-						"Recieved invitation to complete Google's secret hiring Foobar challenge.",
+						"Completed Google's secret hiring Foobar challenge twice.",
 					color: "#de70a2"
 				},
 				{
