@@ -13,7 +13,7 @@ const greeting = {
     nickname: "harsh-2711",
     // subTitle:
     //   "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks",
-    subTitle: "I'm a startup-enthusiast still figuring out how 0s and 1s have change the world. I maintain large infrastructures at day and develop scalable social systems at night 🚀",
+    subTitle: "I'm a startup-enthusiast still figuring out how 0s and 1s have changed the world. I maintain large infrastructures at day and develop scalable social systems at night 🚀",
     resumeLink: "https://www.dropbox.com/s/00v1m9vw5oudb0w/Resume_SWE.pdf?dl=0"
 };
 
