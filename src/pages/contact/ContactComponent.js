@@ -14,7 +14,7 @@ const blogSection = {
 	title: "Blogs",
 	subtitle:
 		"Blogging forces me to teach myself what I don’t know and to articulate what I do know. So, I write weeekly tech blogs as I believe in giving what I have received from the community",
-	link: "https://medium.com/@harsh.2711.patel",
+	link: "https://www.notion.so/Resonance-Space-55a2cefbf7e6458f92b7c081fe57ef9f",
 	avatar_image_path: "blogs_image.svg"
 };
 
