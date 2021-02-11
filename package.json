@@ -9,10 +9,8 @@
         "baseui": "^9.65.3",
         "bootstrap": "^4.4.1",
         "chart.js": "^2.9.3",
-        "commitlint": "^11.0.0",
         "gh-pages": "^2.1.1",
         "graphql": "^14.5.8",
-        "husky": "^5.0.9",
         "node-fetch": "^2.6.0",
         "react": "^16.10.2",
         "react-bootstrap": "^1.0.0-beta.16",
@@ -51,12 +49,23 @@
     },
     "devDependencies": {
         "@iconify/icons-logos": "^1.0.9",
-        "@iconify/react": "^1.1.1"
+        "@iconify/react": "^1.1.1",
+        "commitlint": "^11.0.0",
+        "eslint": "^7.19.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "husky": "^5.0.9",
+        "lint-staged": "^10.5.4",
+        "prettier": "^2.2.1"
     },
     "husky": {
         "hooks": {
-            "pre-commit": "npm i && npm run build",
-            "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+            "pre-commit": "lint-staged"
         }
+    },
+    "lint-staged": {
+        "./src/*.{js,jsx,ts,tsx}": [
+            "npx prettier --write",
+            "eslint src/*.js --fix-dry-run"
+        ]
     }
 }
