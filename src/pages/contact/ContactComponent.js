@@ -47,6 +47,7 @@ class Contact extends Component {
 								<div className="contact-heading-div">
 									<div className="contact-heading-img-div">
 										<img
+											alt="Profile Card"
 											src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
 										/>
 									</div>
@@ -87,6 +88,7 @@ class Contact extends Component {
 									</div>
 									<div className="blog-heading-img-div">
 										<img
+										alt="Blog Card"
 											src={require(`../../assests/images/${blogSection["avatar_image_path"]}`)}
 										/>
 									</div>
@@ -96,6 +98,7 @@ class Contact extends Component {
 								<div className="address-heading-div">
 									<div className="contact-heading-img-div">
 										<img
+										alt="Address Card"
 											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
 										/>
 									</div>

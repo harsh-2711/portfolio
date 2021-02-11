@@ -14,7 +14,7 @@ class IssueCard extends Component {
 				style: { color: "#28a745" }
 			};
 			bgColor = "#dcffe4";
-        } 
+        }
         else {
 			iconPR = {
 				iconifyClass: "octicon:issue-closed",
@@ -42,8 +42,9 @@ class IssueCard extends Component {
 						</Tooltip>
 					}
 				>
-					<a href={issue["assignees"]["nodes"][0]["url"]} target="_blank">
+					<a href={issue["assignees"]["nodes"][0]["url"]} target="_blank" rel="noopener noreferrer">
 						<img
+						alt="Assigned Icon"
 							className="assigned-to-img"
 							src={issue["assignees"]["nodes"][0]["avatarUrl"]}
 						/>
@@ -73,7 +74,7 @@ class IssueCard extends Component {
 							></span>
 							<div className="issue-title-header">
 								<p className="issue-title">
-									<a href={issue["url"]} target="_blank">
+									<a href={issue["url"]} target="_blank" rel="noopener noreferrer">
 										{issue["title"]}
 									</a>
 								</p>
@@ -116,9 +117,11 @@ class IssueCard extends Component {
 							<a
 								href={issue["repository"]["owner"]["url"]}
 								target="_blank"
+								rel="noopener noreferrer"
 							>
 								<img
 									className="owner-img"
+									alt="Avatar"
 									src={issue["repository"]["owner"]["avatarUrl"]}
 								/>
 							</a>

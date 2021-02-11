@@ -13,7 +13,7 @@ export default function Podcast() {
         {podcastSection.podcast.map(podcastLink => {
           return (
             <div>
-              <iframe className= "podcast" src={podcastLink} frameborder="0" scrolling="no"></iframe>
+              <iframe className= "podcast" title={podcastSection.title} src={podcastLink} frameborder="0" scrolling="no"></iframe>
             </div>
           );
         })}

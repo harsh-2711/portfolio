@@ -24,6 +24,7 @@ class Projects extends Component {
 								<div className="projects-heading-div">
 									<div className="projects-heading-img-div">
 										<img
+										alt="Projects Card"
 											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
 										/>
 									</div>

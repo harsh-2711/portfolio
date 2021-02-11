@@ -2,6 +2,7 @@ import React from "react";
 import ProjectLanguages from '../../components/projectLanguages/ProjectLanguages';
 import "./GithubRepoCard.css";
 
+/* eslint-disable react/jsx-no-duplicate-props */
 export default function GithubRepoCard({ repo }) {
   function openRepoinNewTab(url) {
     var win = window.open(url, "_blank");

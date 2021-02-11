@@ -27,7 +27,6 @@ class PullRequestCard extends Component {
 			};
 			bgColor = "#ffdce0";
         }
-        
         var subtitleString = "#"+pullRequest["number"]+" opened on "+pullRequest["createdAt"].split("T")[0];
         var mergedBy;
         if(pullRequest["mergedBy"]!==null){
@@ -43,8 +42,9 @@ class PullRequestCard extends Component {
 									</Tooltip>
 								}
 							>
-								<a href={pullRequest["mergedBy"]["url"]} target="_blank">
+								<a href={pullRequest["mergedBy"]["url"]} target="_blank" rel="noopener noreferrer">
 									<img
+									alt="PR Icon"
 										className="merge-by-img"
 										src={pullRequest["mergedBy"]["avatarUrl"]}
 									/>
@@ -75,7 +75,7 @@ class PullRequestCard extends Component {
 							></span>
 							<div className="pr-title-header">
 								<p className="pr-title">
-									<a href={pullRequest["url"]} target="_blank">
+									<a href={pullRequest["url"]} target="_blank" rel="noopener noreferrer">
 										{pullRequest["title"]}
 									</a>
 								</p>
@@ -95,7 +95,7 @@ class PullRequestCard extends Component {
 					<div className="pr-down">
 						<div className="changes-repo">
 							<p className="parent-repo">
-								Repository:{" "} 
+								Repository:{" "}
 								<a
 									style={{ color: iconPR.style.color }}
 									href={pullRequest["baseRepository"]["url"]}
@@ -118,9 +118,11 @@ class PullRequestCard extends Component {
 						<a
 							href={pullRequest["baseRepository"]["owner"]["url"]}
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							<img
 								className="owner-img"
+								alt="Avatar"
 								src={pullRequest["baseRepository"]["owner"]["avatarUrl"]}
 							/>
 						</a>
