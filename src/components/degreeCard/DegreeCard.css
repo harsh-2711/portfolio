@@ -1,12 +1,12 @@
 .degree-card {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-title {
-    font-family : "Google Sans Medium";
+    font-family: "Google Sans Medium";
     font-size: 23px;
     color: #000000;
 }
@@ -34,7 +34,7 @@
     max-width: inherit;
     display: flex;
     /* width: 100%; */
-    background-color:#6c63ff99;
+    background-color: #6c63ff99;
     border-radius: 7px 7px 0px 0px;
     padding: 10px;
 }
@@ -47,11 +47,12 @@
 .body-header-duration {
     width: 20%;
 }
+
 .duration {
-    font-family: "Google Sans Regular";
+    font-family: "GGotham-Medium-Regular";
     font-size: 16px;
     color: #212121;
-    padding-right:10px;
+    padding-right: 10px;
     float: right;
 }
 
@@ -60,7 +61,7 @@
     /* width: 100%; */
     border-radius: 0px 0px 7px 7px;
     padding: 5px;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     /* box-shadow: 5px 5px 5px #d3d3d3; */
 }
@@ -68,7 +69,7 @@
 .content-list {
     padding-left: 10px;
     padding-right: 10px;
-    font-family: "Google Sans Regular";
+    font-family: "Gotham-Medium-Regular";
 }
 
 .card-body {
@@ -82,7 +83,7 @@
     box-shadow: 5px 5px 5px #d9dbdf;
 }
 
-.visit-btn{
+.visit-btn {
     background-color: #6c63ff99;
     display: inline-block;
     margin: 0px 10px 10px 0px;
@@ -93,56 +94,47 @@
 }
 
 .visit-btn:hover {
-    background-color:#6c63ffcc;
+    background-color: #6c63ffcc;
 }
 
 .btn {
     margin: 0px;
     padding: 0px;
-    font-family: "Google Sans Regular";
+    font-family: "Gotham-Medium-Regular";
     color: #000000;
 }
 
-@media (max-width:1380px){
-}
+@media (max-width:1380px) {}
 
-@media (max-width:768px){
+@media (max-width:768px) {
     .degree-card {
         flex-direction: column;
     }
-
     .body-header {
         flex-direction: column;
     }
-
     .body-header-title {
         width: 100%;
     }
-
     .body-header-duration {
         padding: 0;
         margin: 0;
         width: 100%;
     }
-
     .duration {
         padding: 0px;
         margin: 0px;
         float: left;
     }
-
     .card-img {
         width: 200px;
     }
-
-    .card-body{
+    .card-body {
         width: 100%;
     }
-
     .card-title {
         font-size: 20px;
     }
-
     .card-subtitle {
         font-size: 16px;
     }

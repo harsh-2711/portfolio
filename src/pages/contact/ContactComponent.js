@@ -19,7 +19,7 @@ const blogSection = {
 };
 
 const addressSection = {
-	title: "Address",
+	title: "Reach me out",
 	subtitle:
 		"A-107 HoR Men, DAIICT, Gandhinagar, Gujarat - 382421",
 	avatar_image_path: "address_image.svg",
@@ -32,9 +32,9 @@ const phoneSection = {
 }
 
 const ContactData = {
-	title: "Contact Me",
-    profile_image_path: "harsh.png",
-    description: "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Cloud, Infra, AI, Mobile, Web and Opensource Development."
+	title: "Need a second hand?",
+    profile_image_path: "harsh-circle-2.png",
+    description: "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Distributed Systems, Anything Backend, DevOps, Mobile, and Opensource Development."
 };
 
 class Contact extends Component {
@@ -100,7 +100,7 @@ class Contact extends Component {
 										/>
 									</div>
 									<div className="address-heading-text-div">
-										<h1 className="address-heading-text">
+										<h1 className="blog-heading-text">
 											{addressSection["title"]}
 										</h1>
 										<p className="contact-header-detail-text subTitle">

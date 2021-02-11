@@ -1,4 +1,4 @@
-.pr-chart{
+.pr-chart {
     width: 100%;
     text-align: center;
     margin-left: 20px;
@@ -9,13 +9,11 @@ canvas {
     margin: 0 auto;
 }
 
-
 .pr-chart-header {
-    font-family: "Google Sans Regular"
+    font-family: "Gotham-Medium-Regular"
 }
 
-@media (max-width:768px){
-
+@media (max-width:768px) {
     .pr-chart-header {
         font-size: 20px;
     }

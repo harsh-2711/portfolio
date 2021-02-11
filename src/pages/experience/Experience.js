@@ -10,14 +10,14 @@ const experience = {
 	title: "Experience",
 	subtitle: "Work, Internship and Volunteership",
 	description:
-		"I have worked with many evolving startups as Software Developer, Backend Developer and Deep Learning intern. I have also worked with some well established companies mostly as Software Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+		"I have worked with many evolving startups as Full Stack Developer, Backend Developer and Deep Learning intern. I have also worked with some well established companies mostly as Software Developer. I like healthy conversations around tech and that is why I am also involved with many Open Source communities as a representative.",
 	header_image_path: "experience.svg",
 	sections: [
 		{
 			title: "Work",
 			experiences: [
 				{
-					title: "Software Development Engineer",
+					title: "Product Engineer",
 					company: "Lyearn",
 					company_url: "https://lyearn.com/",
 					logo_path: "lyearn.jpeg",

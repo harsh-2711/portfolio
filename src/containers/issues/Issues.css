@@ -1,10 +1,10 @@
 .issues-header {
     font-size: 40px;
-  line-height: 1.1;
-  font-family: "Google Sans Regular";
-  text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+    line-height: 1.1;
+    font-family: "Gotham-Medium-Regular";
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .issues-body-div {
@@ -12,14 +12,14 @@
     width: 100%;
 }
 
-@media (max-width:1380px){
-    .issues-header{
+@media (max-width:1380px) {
+    .issues-header {
         font-size: 35px;
     }
 }
 
-@media (max-width:768px){
-    .issues-header{
+@media (max-width:768px) {
+    .issues-header {
         font-size: 25px;
     }
 }

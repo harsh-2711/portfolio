@@ -1,8 +1,8 @@
 .certs-header {
-  font-size: 40px;
-  line-height: 1.1;
-  font-family: "Google Sans Regular";
-  text-align: center;
+    font-size: 40px;
+    line-height: 1.1;
+    font-family: "Gotham-Medium-Regular";
+    text-align: center;
 }
 
 .certs-body-div {
@@ -11,18 +11,17 @@
     flex-wrap: wrap;
 }
 
-@media (max-width:1380px){
-    .certs-header{
+@media (max-width:1380px) {
+    .certs-header {
         font-size: 35px;
     }
 }
 
-@media (max-width:768px){
-    .certs-body-div{
+@media (max-width:768px) {
+    .certs-body-div {
         flex-direction: column;
     }
-
-    .certs-header{
+    .certs-header {
         font-size: 30px;
     }
 }

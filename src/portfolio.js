@@ -34,40 +34,21 @@ const skills = {
             title: "Full Stack Development",
             imagePath: "fullstack.svg",
             skills: [
-                "⚡ Building resposive website front end using React-Redux",
-                "⚡ Developing mobile applications using Native Android, Kotlin and Swift",
-                "⚡ Creating application backend in Node, Express, Flask & Django",
-                "⚡ Developing REST APIs using OpenAPI specs to expose endpoints for system communication"
+                "⚡ Building responsive website front end using ReactJS and NextJS",
+                "⚡ Developing native mobile applications using Java, Kotlin and Swift",
+                "⚡ Creating backend application in Typescript, Kotlin, Python and Go",
+                "⚡ Developing REST and GraphQL APIs to expose endpoints",
+                "⚡ Supporting micro-services frenzy 😜 using gRPC"
             ],
-            softwareSkills: [{
-                    skillName: "HTML5",
-                    fontAwesomeClassname: "simple-icons:html5",
-                    style: {
-                        color: "#E34F26"
-                    }
-                },
-                {
-                    skillName: "CSS3",
-                    fontAwesomeClassname: "fa-css3",
-                    style: {
-                        color: "#1572B6"
-                    }
-                },
-                {
-                    skillName: "Sass",
-                    fontAwesomeClassname: "simple-icons:sass",
-                    style: {
-                        color: "#CC6699"
-                    }
-                },
-                {
-                    skillName: "JavaScript",
-                    fontAwesomeClassname: "simple-icons:javascript",
-                    style: {
-                        backgroundColor: "#000000",
-                        color: "#F7DF1E"
-                    }
-                },
+            softwareSkills: [
+                // {
+                //     skillName: "Kotlin",
+                //     fontAwesomeClassname: "simple-icons:kotlin",
+                //     style: {
+                //         backgroundColor: "#000000",
+                //         color: "#F7DF1E"
+                //     }
+                // },
                 {
                     skillName: "ReactJS",
                     fontAwesomeClassname: "simple-icons:react",
@@ -97,19 +78,47 @@ const skills = {
                     }
                 },
                 {
-                    skillName: "Android",
-                    fontAwesomeClassname: "simple-icons:android",
+                    skillName: "PostgreSQL",
+                    fontAwesomeClassname: "simple-icons:postgresql",
                     style: {
-                        color: "#abc452"
+                        color: "#336791"
                     }
                 },
                 {
-                    skillName: "Flutter",
-                    fontAwesomeClassname: "simple-icons:flutter",
+                    skillName: "MongoDB",
+                    fontAwesomeClassname: "simple-icons:mongodb",
                     style: {
-                        color: "#02569B"
+                        color: "#47A248"
                     }
-                }
+                },
+                {
+                    skillName: "Redis",
+                    fontAwesomeClassname: "simple-icons:redis",
+                    style: {
+                        color: "#AE3426"
+                    }
+                },
+                {
+                    skillName: "Elastic",
+                    fontAwesomeClassname: "simple-icons:elastic",
+                    style: {
+                        color: "#dd5d96"
+                    }
+                },
+                // {
+                //     skillName: "Android",
+                //     fontAwesomeClassname: "simple-icons:android",
+                //     style: {
+                //         color: "#abc452"
+                //     }
+                // },
+                // {
+                //     skillName: "Swift",
+                //     fontAwesomeClassname: "simple-icons:swift",
+                //     style: {
+                //         color: "#e66e42"
+                //     }
+                // }
                 // {
                 //     skillName: "NPM",
                 //     fontAwesomeClassname: "simple-icons:npm",
@@ -159,31 +168,10 @@ const skills = {
                 //     }
                 // },
                 {
-                    skillName: "Firebase",
-                    fontAwesomeClassname: "simple-icons:firebase",
+                    skillName: "Ansible",
+                    fontAwesomeClassname: "simple-icons:ansible",
                     style: {
-                        color: "#FFCA28"
-                    }
-                },
-                {
-                    skillName: "Redis",
-                    fontAwesomeClassname: "simple-icons:redis",
-                    style: {
-                        color: "#AE3426"
-                    }
-                },
-                {
-                    skillName: "PostgreSQL",
-                    fontAwesomeClassname: "simple-icons:postgresql",
-                    style: {
-                        color: "#336791"
-                    }
-                },
-                {
-                    skillName: "MongoDB",
-                    fontAwesomeClassname: "simple-icons:mongodb",
-                    style: {
-                        color: "#47A248"
+                        color: "#000000"
                     }
                 },
                 {
@@ -199,14 +187,14 @@ const skills = {
                     style: {
                         color: "#326CE5"
                     }
-                },
-                {
-                    skillName: "Golang",
-                    fontAwesomeClassname: "simple-icons:go",
-                    style: {
-                        color: "#93D3E7"
-                    }
                 }
+                // {
+                //     skillName: "Golang",
+                //     fontAwesomeClassname: "simple-icons:go",
+                //     style: {
+                //         color: "#93D3E7"
+                //     }
+                // }
             ]
         },
         {
@@ -341,7 +329,7 @@ const degrees = {
         subtitle: "B.Tech. Honours in ICT with minors in CS",
         logo_path: "daiict_logo.png",
         alt_name: "DAIICT",
-        duration: "2017 - Present",
+        duration: "2017 - 2021",
         descriptions: [
             "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, SEN, ML etc.",
             "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",

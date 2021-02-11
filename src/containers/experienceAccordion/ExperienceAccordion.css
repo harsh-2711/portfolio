@@ -3,11 +3,11 @@
 }
 
 .accord-panel {
-    font-family: 'Google Sans Regular';
+    font-family: 'Gotham-Medium-Regular';
 }
 
 @media (max-width: 768px) {
-    .experience-accord{
+    .experience-accord {
         margin: 20px;
     }
 }
