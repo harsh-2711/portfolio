@@ -53,21 +53,8 @@
         "@iconify/icons-logos": "^1.0.9",
         "@iconify/react": "^1.1.1",
         "commitlint": "^11.0.0",
-        "eslint": "^7.19.0",
-        "eslint-config-airbnb": "^18.2.1",
         "husky": "^5.0.9",
         "lint-staged": "^10.5.4",
         "prettier": "^2.2.1"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
-    },
-    "lint-staged": {
-        "./src/*.{js,jsx,ts,tsx}": [
-            "npx prettier --write",
-            "eslint src/*.js --fix-dry-run"
-        ]
     }
 }
