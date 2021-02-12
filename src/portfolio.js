@@ -467,14 +467,6 @@ const certifications = {
         //     alt_name: "Coursera",
         //     color_code: "#2A73CC"
         // },
-        // {
-        //     title: "Cryptography",
-        //     subtitle: "- Saurabh Mukhopadhyay",
-        //     logo_path: "nptel_logo.png",
-        //     certificate_link: "https://drive.google.com/open?id=1z5ExD_QJVdU0slLkp8CBqSF3-C3g-ro_",
-        //     alt_name: "NPTEL",
-        //     color_code: "#FFBB0099"
-        // },
         {
             title: "Cloud Architecture",
             subtitle: "- Qwiklabs",
@@ -494,20 +486,20 @@ const openSource = {
     githubUserName: "harsh-2711"
 };
 
-const bigProjects = {
-    /* Some Big Projects You have worked with your company */
-    title: "Big Projects",
-    subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
-    projects: [{
-            image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
-            link: "http://saayahealth.com/"
-        },
-        {
-            image: "http://nextu.se/wp-content/themes/nextu/images/og_img.jpg",
-            link: "http://nextu.se/"
-        }
-    ]
-};
+// const bigProjects = {
+//     /* Some Big Projects You have worked with your company */
+//     title: "Big Projects",
+//     subtitle: "SOME STARTUPS AND COMPANIES THAT I HELP TO CREATE THEIR TECH",
+//     projects: [{
+//             image: "https://drive.google.com/uc?id=1exWn9T6j8TsfDDHJnS3VR66eP6RiGAfY",
+//             link: "http://saayahealth.com/"
+//         },
+//         {
+//             image: "http://nextu.se/wp-content/themes/nextu/images/og_img.jpg",
+//             link: "http://nextu.se/"
+//         }
+//     ]
+// };
 
 const achievementSection = {
     /* Your Achievement Section Include Your Certification Talks and More */
@@ -611,7 +603,7 @@ export {
     degrees,
     certifications,
     openSource,
-    bigProjects,
+    // bigProjects,
     achievementSection,
     blogSection,
     talkSection,

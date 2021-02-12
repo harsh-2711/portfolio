@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "../../components/header/Header";
 import Footer from "../../components/footer/Footer";
 import ExperienceAccordion from '../../containers/experienceAccordion/ExperienceAccordion.js';
-// import experience from '../../shared/experience_data.json';
 import "./Experience.css";
 import { Fade } from "react-reveal";
 
