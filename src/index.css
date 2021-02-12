@@ -3,11 +3,13 @@
     font-style: normal;
     font-weight: normal;
     src: local("Agustina Regular"), url("./assests/fonts/Agustina.woff") format("woff");
+    font-display: swap;
 }
 
 @font-face {
     font-family: "Montserrat";
     src: local("Montserrat"), url("./assests/fonts/Montserrat-Regular.ttf") format("woff");
+    font-display: swap;
 }
 
 @font-face {
@@ -15,6 +17,7 @@
     font-weight: normal;
     font-style: normal;
     src: local("Gotham-Medium-Regular"), url('./assests/fonts/Gotham-Medium-Regular.ttf') format('woff');
+    font-display: swap;
 }
 
 @font-face {
@@ -22,6 +25,7 @@
     font-weight: normal;
     font-style: normal;
     src: local("Segoe-UI"), url('./assests/fonts/Segoe-UI.woff') format('woff');
+    font-display: swap;
 }
 
 code {
