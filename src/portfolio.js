@@ -160,6 +160,13 @@ const skills = {
                         color: "#4285F4"
                     }
                 },
+                {
+                    skillName: "Heroku",
+                    fontAwesomeClassname: "simple-icons:heroku",
+                    style: {
+                        color: "#3d1192"
+                    }
+                },
                 // {
                 //     skillName: "Azure",
                 //     fontAwesomeClassname: "simple-icons:microsoftazure",
