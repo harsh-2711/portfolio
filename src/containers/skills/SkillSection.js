@@ -10,7 +10,7 @@ class SkillSection extends Component {
       <div>
         {skills.data.map(skill => {
           return (
-            <div className="skills-main-div">
+            <div className="skills-main-div" key={skill.title}>
               <Flip left duration={2000}>
                 <div className="skills-image-div">
                   <img
@@ -29,9 +29,9 @@ class SkillSection extends Component {
                 </Fade>
                 <Fade right duration={2000}>
                   <div>
-                    {skill.skills.map(skillSentence => {
+                    {skill.skills.map(function(skillSentence, i) {
                       return (
-                        <p className="subTitle skills-text">{skillSentence}</p>
+                        <p className="subTitle skills-text" key={i}>{skillSentence}</p>
                       );
                     })}
                   </div>
